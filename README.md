@@ -53,6 +53,6 @@ mv sequoia_monochrome.yaml $HOME/.warp/themes/
 
 <hr />
 
-Sequoia Theme created by [Micheal Andreuzza](https://github.com/michael-andreuzza) and ported by Mike.
+Sequoia Theme created by [Micheal Andreuzza](https://github.com/michael-andreuzza) and ported by Torben Haack.
 
 [^1]: The command gets the content of the `install.sh` script and then executes it. Take a look at the [source of the script](https://github.com/trbnhck/sequoia-theme-for-warp/blob/main/install.sh)
