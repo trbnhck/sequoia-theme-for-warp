@@ -8,7 +8,10 @@ Sequoia theme ported to [Warp](https://warp.dev) 💻
 
 ### Automatic Setup
 
-1. Run `curl {URL_TO_SCRIPT} | bash`
+1. Run the following command
+```sh
+$ curl 'https://raw.githubusercontent.com/trbnhck/sequoia-theme-for-warp/main/install.sh' | bash
+```
 2. Open Warp
 3. Navigate to `Settings` > `Appearance`
 4. Click on `Current Theme` and then search for `Sequoia` and either choose between `Moonlight` or `Monochrome`
