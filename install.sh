@@ -66,7 +66,9 @@ fi
 
 # Prompt for installation option
 echo -n -e "${WHITE}> ${NC}"
+
 read -r installation_option
+
 echo ""
 
 # Check if user input is valid
