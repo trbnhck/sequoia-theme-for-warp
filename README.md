@@ -18,20 +18,18 @@ Sequoia theme ported to [Warp](https://warp.dev) 💻
 
 (TODO)
 
-## Available themes
+## Available Options
 
--   Moonlight
--   Monochrome
-
-## Screenshots
-
-### Moonlight
-
-![Moonlight]()
-
-### Monochrome
-
-![Monochrome]()
+<p float="center">
+  <div>
+    <h3>Moonlight</h3>
+    <img src="https://github.com/trbnhck/sequoia-theme-for-warp/blob/main/preview/sequoia_moonlight.png?raw=true" width="500" alt="Moonlight" />
+  </div>
+  <div>
+    <h3>Monochrome</h3>
+    <img src="https://raw.githubusercontent.com/trbnhck/sequoia-theme-for-warp/main/preview/sequoia_monochrome.png?raw=true" width="500" alt="Monochrome" /> 
+  </div>
+</p>
 
 <hr />
 
