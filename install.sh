@@ -81,7 +81,7 @@ fi
 if [ ! -d "$HOME/.warp/themes" ]; then
 		echo -e "${BOLD_RED}ERROR:${NC} The Warp config directory was not found at ${BOLD_RED}${WARP_THEME_DIR}${NC}."
 		echo -e -n "Do you want to create it? ${DIM}(${NC}${BOLD_GREEN}Y${NC}${DIM}/n)${NC} "
-		readcreate_warp_config_dir
+		read create_warp_config_dir
 		if [ "$create_warp_config_dir" = "n" ]; then
 			echo -e "\nThe installation was aborted.\n"
 			exit 1
