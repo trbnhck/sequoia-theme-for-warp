@@ -1,4 +1,4 @@
-![Sequoia Theme Header](https://raw.githubusercontent.com/Sequoia-Theme/assets/main/githubHeader.png)
+[![Sequoia Theme Header](https://raw.githubusercontent.com/Sequoia-Theme/assets/main/githubHeader.png)](https://github.com/Sequoia-Theme)
 
 # Sequoia for Warp
 
