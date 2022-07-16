@@ -67,7 +67,7 @@ fi
 # Prompt for installation option
 echo -n -e "${WHITE}> ${NC}"
 
-read -p installation_option
+read installation_option
 
 echo ""
 
@@ -81,7 +81,7 @@ fi
 if [ ! -d "$HOME/.warp/themes" ]; then
 		echo -e "${BOLD_RED}ERROR:${NC} The Warp config directory was not found at ${BOLD_RED}${WARP_THEME_DIR}${NC}."
 		echo -e -n "Do you want to create it? ${DIM}(${NC}${BOLD_GREEN}Y${NC}${DIM}/n)${NC} "
-		read -pcreate_warp_config_dir
+		readcreate_warp_config_dir
 		if [ "$create_warp_config_dir" = "n" ]; then
 			echo -e "\nThe installation was aborted.\n"
 			exit 1
@@ -96,7 +96,7 @@ function install_moonlight(){
 	if [ "$MOONLIGHT_INSTALLED" = true ]; then
 		echo -e "${BOLD_ORANGE}WARNING:${NC} The theme ${BOLD_MAGENTA}Sequoia Moonlight${NC} is already installed."
 		echo -e -n "	 Do you want to replace it? ${DIM}(${NC}${BOLD_GREEN}Y${NC}${DIM}/n)${NC} "
-		read -p replace_moonlight
+		read replace_moonlight
 		if [ "$replace_moonlight" = "n" ]; then
 			echo -e "\nThe installation was aborted.\n"
 			exit 1
@@ -122,7 +122,7 @@ function install_monochrome(){
 	if [ "$MONOCHROME_INSTALLED" = true ]; then
 		echo -e "${BOLD_ORANGE}WARNING:${NC} The theme ${BOLD_MAGENTA}Sequoia Monochrome${NC} is already installed."
 		echo -e -n "	 Do you want to replace it? ${DIM}(${NC}${BOLD_GREEN}Y${NC}${DIM}/n)${NC} "
-		read -p replace_monochrome
+		read replace_monochrome
 		if [ "$replace_monochrome" = "n" ]; then
 			echo -e "\nThe installation was aborted.\n"
 			exit 1
